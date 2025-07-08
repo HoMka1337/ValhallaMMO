@@ -6,7 +6,7 @@
     <name>ValhallaMMO</name>
     <groupId>me.athlaeos</groupId>
     <artifactId>valhallammo-parent</artifactId>
-    <description>A very big skills/leveling plugin with plenty of useful tools to make a unique experience</description>
+    <description>Очень большой плагин навыков/прокачки с множеством полезных инструментов для создания уникального опыта</description>
     <version>${revision}</version>
     <packaging>pom</packaging>
 
