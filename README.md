@@ -1,4 +1,4 @@
-Integrate ValhallaMMO into your project with Maven
+Интегрируйте ValhallaMMO в свой проект с помощью Maven
 ```
 <repositories>
     <repository>
@@ -18,47 +18,46 @@ Integrate ValhallaMMO into your project with Maven
 ```
 
 
-# Welcome to ValhallaMMO
-ValhallaMMO is a large plugin with many features, but its main goal is to overhaul regular gameplay to be more involved and immersive.
-Your game impact is now heavily influenced by how skilled/levelled you are at something. This can mean stronger and more durable tools from crafting, stronger potions and enchantments, greater damage when fighting, special abilities, etc.
-I tried my best to also encourage different playstyles so players have to decide what path they choose to take. 
+# Добро пожаловать в ValhallaMMO
+ValhallaMMO — это большой плагин со множеством функций, но его главная цель — переделать обычный игровой процесс, сделав его более вовлеченным и захватывающим.
+Ваше игровое воздействие теперь во многом зависит от того, насколько вы искусны/уровняетесь в чем-то. Это может означать более сильные и прочные инструменты для крафта, более сильные зелья и чары, больший урон в бою, особые способности и т. д.
+Я старался изо всех сил поощрять разные стили игры, чтобы игроки могли решить, какой путь они выберут. 
 
-It is plug-and-play, meaning it is completely featured right out the box and little to not further additional steps are required to start playing, but it also comes with many tools to customize the plugin to make it more unique to your server.
-In the future, it will have several configuration presets you can choose from, but the default one will be the closest to vanilla and easiest to learn.
+Это плагин plug-and-play, то есть он полностью готов к работе сразу после установки и для начала игры требуется совсем немного дополнительных шагов, но он также поставляется со множеством инструментов для настройки плагина, чтобы сделать его более уникальным для вашего сервера.
+В будущем у него будет несколько предустановленных конфигураций, из которых вы сможете выбирать, но предустановленный по умолчанию будет наиболее близким к ванильному и простым в освоении.
 
-Features include
-- Leaderboards to compare your progress with others
-- Party system with progression
-- Loot table editors 
-  - Available for Mob Drops, Containers, Fishing, Archaeology(requires 1.20+), and Piglin Bartering
-  - Entirely GUI-based
-  - Items may also be turned into sort of "loot bags" which open up when interacted with
-  - Drop chances may be weighted, affected by luck and/or fortune/looting, and have lots of environmental conditions available. 
-- Recipe editors
-  - Entirely GUI-based
-  - Powerful functions to edit items based on player progress, or to apply conditions to recipes. These functions are available to any item-based feature in ValhallaMMO
-- New recipe types
-  - Immersive, requiring the player to spend some time hammering away at a crafting station of choice to craft something
-  - Cooking, requiring the player to combine a number of ingredients within a cauldron and either letting it boil for a given amount of time, or to trigger the recipe with a catalyst
-- Many new item and player stats
-- Customizable skill trees you can navigate through, allowing a virtually infinitely sized skill tree (not that this is recommended)
-- New potion effects with an effect indicator
-- Enemy progression, gaining increased stats as you level up
-- Global effect boosters, which you may sell in your server shops as EULA-friendly server perks
-- Likewise, the plugin by default includes damage indicators to tell you how much damage you're doing (Requires "Decent Holograms" to be installed on 1.19, 1.20+ uses TextDisplay)
-  - By default only enabled on "dummies", which are armor stands wearing an item marked with the "dummy" tag
-  - Display the damage type that is dealt
-  - Display DPS (Damage Per Second) as well as critical hits
+Функции включают в себя
+- Таблицы лидеров для сравнения вашего прогресса с другими
+- Система групп с прогрессом
+- Редакторы таблиц добычи
+- Доступно для Mob Drops, Containers, Fishing, Archaeology (требуется 1.20+) и Piglin Bartering
+- Полностью основано на GUI
+- Предметы также могут быть превращены в своего рода «мешки с добычей», которые открываются при взаимодействии с
+- Шансы выпадения могут быть взвешены, зависеть от удачи и/или удачи/добычи и иметь множество доступных условий окружающей среды.
+- Редакторы рецептов
+- Полностью основано на GUI
+- Мощные функции для редактирования предметов на основе прогресса игрока или для применения условий к рецептам. Эти функции доступны для любой функции, основанной на предметах, в ValhallaMMO
+- Новые типы рецептов
+- Иммерсивный, требующий от игрока потратить некоторое время на работу на станции крафта по выбору, чтобы что-то создать
+- Кулинария, требующая от игрока смешать несколько ингредиентов в котле и либо дать ему кипеть в течение определенного времени, либо активировать рецепт с помощью катализатора
+- Множество новых предметов и характеристик игрока
+- Настраиваемые деревья навыков, по которым вы можете перемещаться, что позволяет создавать практически бесконечное дерево навыков (не то чтобы это было рекомендовано)
+- Новые эффекты зелий с индикатором эффекта
+- Прогресс врагов, получение увеличенных характеристик по мере повышения уровня
+- Глобальные усилители эффектов, которые вы можете продавать в магазинах вашего сервера как дружественные EULA серверные бонусы
+- Аналогично, плагин по умолчанию включает индикаторы урона, чтобы сообщать вам, сколько урона вы наносите (требуется установка "Decent Holograms" на 1.19, 1.20+ использует TextDisplay)
+- По умолчанию включено только на "манекенах", которые представляют собой стойки для брони, на которых надета вещь с меткой "манекен"
+- Отображение типа нанесенного урона
+- Отображение DPS (урон в секунду), а также критических ударов
 
-I know it's a lot to take in, but I've done my best to design its default features to not be overwhelming for the average player. 
-All this customization is completely optional and so you will probably not even need to touch it. But if you want to customize the plugin, it's there for you to use.
+Я знаю, что это сложно, но я сделал все возможное, чтобы спроектировать его стандартные функции так, чтобы они не были непосильными для обычного игрока. 
+Вся эта настройка совершенно необязательна, и вам, вероятно, даже не придется к ней прикасаться. Но если вы хотите настроить плагин, он есть для вас. 
 
-The wiki is not yet finished, and will be worked on once BETA is released.
+Wiki еще не закончен и будет работать после выпуска BETA. 
 
-To install it, download the jar in the releases and insert it into your plugins folder.
-If you want the resource pack, execute the "/val resourcepack setup" command to install it on your server.
-The plugin works on Spigot and its forks, on version 1.19 and above. 
-
+Чтобы установить его, загрузите jar в releases и вставьте его в папку с плагинами. 
+Если вам нужен пакет ресурсов, выполните команду "/val resourcepack setup", чтобы установить его на свой сервер. 
+Плагин работает на Spigot и его ответвлениях, в версии 1.19 и выше.
 # Maven
 ```
 not implemented yet
