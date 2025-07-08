@@ -20,16 +20,16 @@
 .project
 .classpath
 
-# Compiled class file
+# Скомпилированный файл класса
 *.class
 
-# Log file
+# Файл журнала
 *.log
 
-# BlueJ files
+# Файлы BlueJ
 *.ctxt
 
-# Package Files #
+# Файлы пакета #
 *.jar
 *.war
 *.nar
@@ -38,35 +38,35 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# журналы сбоев виртуальной машины см. http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
 *~
 
-# temporary files which can be created if a process still has a handle open of a deleted file
+# временные файлы, которые могут быть созданы, если у процесса все еще есть открытый дескриптор удаленного файла
 .fuse_hidden*
 
-# KDE directory preferences
+# настройки каталога KDE
 .directory
 
-# Linux trash folder which might appear on any partition or disk
+# папка корзины Linux, которая может появиться на любом разделе или диске
 .Trash-*
 
-# .nfs files are created when an open file is removed but is still being accessed
+# файлы .nfs создаются, когда открытый файл удаляется, но к нему все еще осуществляется доступ
 .nfs*
 
-# General
+# общие
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Icon must end with two \r
-Icon
+# значок должен заканчиваться двумя \r
+значок
 
-# Thumbnails
+# миниатюры
 ._*
 
-# Files that might appear in the root of a volume
+# файлы, которые могут появиться в корне том
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -75,34 +75,34 @@ Icon
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
-# Directories potentially created on remote AFP share
+# Каталоги, потенциально созданные на удаленном ресурсе AFP
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
 
-# Windows thumbnail cache files
+# Файлы кэша миниатюр Windows
 Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
-# Dump file
+# Файл дампа
 *.stackdump
 
-# Folder config file
+# Файл конфигурации папки
 [Dd]esktop.ini
 
-# Recycle Bin used on file shares
+# Корзина, используемая на файловых ресурсах
 $RECYCLE.BIN/
 
-# Windows Installer files
+# Файлы установщика Windows
 *.cab
 *.msi
 *.msix
 *.msm
 *.msp
 
-# Windows shortcuts
+# Windows ярлыки
 *.lnk
